@@ -1,0 +1,103 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body{
+	margin:0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Avenir", Futura, Helvetica, sans-serif;
+}
+.app-sticky{
+	background: black;
+}
+.app-header{
+	background: url("../img/back.jpeg") no-repeat center top fixed;
+	background-size: cover;
+}
+.app-navbar{
+	transition:background .2s ease-in;
+	z-index: 10;
+	position: fixed;
+	top:0;
+	width: 100%;
+	padding: 0;
+	margin:0;
+	border-radius: 0;
+}
+.app-link{
+	color: white;
+	text-shadow:none;
+}
+.app-link:hover{
+	color: white;
+}
+.app-nav>li>a{
+	font-size: 1.3em;
+	color:black;
+	text-shadow:none;
+	letter-spacing: 2px;
+}
+.app-nav>li>a:hover{
+	background: none;
+}
+.app-seccion1{
+	padding: 0;
+	width: 60%;
+	margin:0 auto;
+	text-align: center;
+}
+.app-informacion-basica{
+	padding-top: 200px;
+}
+.app-titulo{
+	font-size: 4em;
+	color: white;
+	font-family: 'Pacifico', cursive;
+}
+.app-descripcion{
+	font-size: 1.2em;
+	color: white;
+}
+
+.app-logo{
+	font-size: 1.3em;
+	color: black;
+}
+.app-logo:hover{
+	color: black;
+}
+.app-seccion2{
+	margin-top: 50px;
+}
+/*.app-separador{
+	width: 100px;
+	margin: 20px auto;
+	border: 1px solid #0080d6;
+}*/
+.app-titulo2{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.app-icon1{
+	margin: 25px auto;
+	padding: 20px;
+	background: #0080d6;
+	border-radius: 50%;
+	font-size: 3em;
+}
+.app-seccion2 div div div{
+	padding: 0 120px;
+}
+.app-seccion2 div div div:first-child{
+	border-right: 1px solid #9396A7;
+}
+
+
+
+
+
+
